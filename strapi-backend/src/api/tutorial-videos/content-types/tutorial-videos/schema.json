@@ -1,0 +1,28 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "tutorial_videos",
+  "info": {
+    "singularName": "tutorial-videos",
+    "pluralName": "tutorial-video",
+    "displayName": "tutorial-videos"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "page": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    }
+  }
+}

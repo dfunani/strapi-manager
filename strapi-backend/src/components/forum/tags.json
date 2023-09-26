@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_forum_tags",
+  "info": {
+    "name": "tags",
+    "icon": "tags"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

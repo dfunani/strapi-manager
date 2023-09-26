@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "voc_reports",
+  "info": {
+    "name": "vocReports"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "doc": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "month": {
+      "type": "string"
+    },
+    "reportType": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

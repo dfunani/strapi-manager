@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_providers",
+  "info": {
+    "singularName": "service-provider",
+    "pluralName": "service-providers",
+    "displayName": "serviceProvider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "show": {
+      "displayName": "show",
+      "type": "component",
+      "repeatable": false,
+      "component": "show.show"
+    }
+  }
+}

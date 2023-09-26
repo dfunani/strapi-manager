@@ -1,0 +1,37 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "meta_tags",
+  "info": {
+    "singularName": "meta-tags",
+    "pluralName": "meta-tag",
+    "displayName": "meta-tags"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "page": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogDescription": {
+      "type": "string"
+    },
+    "ogImage": {
+      "type": "string"
+    },
+    "ogUrl": {
+      "type": "string"
+    }
+  }
+}

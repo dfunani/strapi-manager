@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "voc_email_queues",
+  "info": {
+    "singularName": "voc-email-queue",
+    "pluralName": "voc-email-queues",
+    "displayName": "VOC-Email-Queue"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Response_Object": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

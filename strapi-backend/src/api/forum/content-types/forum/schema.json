@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "forums",
+  "info": {
+    "singularName": "forum",
+    "pluralName": "forums",
+    "displayName": "forum",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "forum_popup": {
+      "displayName": "forum-popup",
+      "type": "component",
+      "repeatable": false,
+      "component": "forum.forum-popup"
+    },
+    "best_practice": {
+      "displayName": "best-practices",
+      "type": "component",
+      "repeatable": false,
+      "component": "forum.best-practices"
+    }
+  }
+}

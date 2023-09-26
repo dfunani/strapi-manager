@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_documents_documents",
+  "info": {
+    "displayName": "documents",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "microapp_id": {
+      "type": "string"
+    },
+    "microapp_name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sign_terms_and_conditions",
+  "info": {
+    "singularName": "sign-terms-and-condition",
+    "pluralName": "sign-terms-and-conditions",
+    "displayName": "signTermsAndCondition",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userId": {
+      "type": "integer"
+    },
+    "tncVersion": {
+      "type": "string"
+    }
+  }
+}

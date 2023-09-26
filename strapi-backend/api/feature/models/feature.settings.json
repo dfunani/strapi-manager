@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features",
+  "info": {
+    "name": "Feature"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "vote": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.vote"
+    },
+    "user_id": {
+      "type": "string",
+      "required": true
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "systems",
+  "info": {
+    "singularName": "system",
+    "pluralName": "systems",
+    "displayName": "system"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "updateMicroAppEmail": {
+      "type": "email"
+    }
+  }
+}

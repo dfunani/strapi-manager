@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publish_micro_apps",
+  "info": {
+    "name": "Publish-MicroApp"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "live": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "dev": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "user_id": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "microAppId": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}

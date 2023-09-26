@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_feature_votes",
+  "info": {
+    "displayName": "vote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "users_permissions_users": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

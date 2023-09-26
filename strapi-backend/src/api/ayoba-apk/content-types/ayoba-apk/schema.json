@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ayoba_apks",
+  "info": {
+    "singularName": "ayoba-apk",
+    "pluralName": "ayoba-apks",
+    "displayName": "Ayoba APK",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "version": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "ayobaApk": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "releaseDate": {
+      "type": "date",
+      "required": true
+    },
+    "notes": {
+      "type": "dynamiczone",
+      "components": [
+        "releases.releases"
+      ]
+    }
+  }
+}

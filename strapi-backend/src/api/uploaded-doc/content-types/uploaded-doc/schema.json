@@ -1,0 +1,32 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "uploaded_doc",
+  "info": {
+    "singularName": "uploaded-doc",
+    "pluralName": "uploaded-docs",
+    "displayName": "uploaded-doc"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "user_docs": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "file_name": {
+      "type": "string"
+    }
+  }
+}

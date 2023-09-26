@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forum_flag_answers",
+  "info": {
+    "singularName": "forum-flag-answer",
+    "pluralName": "forum-flag-answers",
+    "displayName": "forum-flag-answer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "string"
+    },
+    "question_id": {
+      "type": "string"
+    },
+    "answer_id": {
+      "type": "string"
+    },
+    "flag": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

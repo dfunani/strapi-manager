@@ -1,0 +1,36 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "publish_micro_apps",
+  "info": {
+    "singularName": "publish-micro-app",
+    "pluralName": "publish-micro-apps",
+    "displayName": "publish-micro-app"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "live": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "dev": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "user_id": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "microAppId": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}

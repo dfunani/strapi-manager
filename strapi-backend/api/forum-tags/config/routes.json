@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/forum-tags",
+      "handler": "forum-tags.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forum-tags/count",
+      "handler": "forum-tags.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forum-tags/:id",
+      "handler": "forum-tags.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/forum-tags",
+      "handler": "forum-tags.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/forum-tags/:id",
+      "handler": "forum-tags.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/forum-tags/:id",
+      "handler": "forum-tags.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

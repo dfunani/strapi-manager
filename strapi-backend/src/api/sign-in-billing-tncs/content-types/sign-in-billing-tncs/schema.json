@@ -1,0 +1,28 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "sign_in_billing_tncs",
+  "info": {
+    "singularName": "sign-in-billing-tncs",
+    "pluralName": "sign-in-billing-tnc",
+    "displayName": "sign-in-billing-tncs"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "userId": {
+      "type": "integer"
+    },
+    "tncVersion": {
+      "type": "string"
+    },
+    "CurrentVersion": {
+      "type": "string"
+    },
+    "MicroAppId": {
+      "type": "uid"
+    }
+  }
+}

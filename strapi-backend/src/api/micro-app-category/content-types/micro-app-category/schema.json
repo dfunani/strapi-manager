@@ -1,0 +1,19 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "MicroApp-Categories",
+  "info": {
+    "singularName": "micro-app-category",
+    "pluralName": "micro-app-categories",
+    "displayName": "micro-app-category"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "category": {
+      "type": "json"
+    }
+  }
+}

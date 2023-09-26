@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "microapp_snapshots",
+  "info": {
+    "singularName": "microapp-snapshot",
+    "pluralName": "microapp-snapshots",
+    "displayName": "microapp-snapshot",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "microapp_id": {
+      "type": "uid"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "date_modified": {
+      "type": "datetime"
+    },
+    "original_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "current_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "microapp_published": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

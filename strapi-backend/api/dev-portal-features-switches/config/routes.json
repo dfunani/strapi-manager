@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dev-portal-features-switches",
+      "handler": "dev-portal-features-switches.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dev-portal-features-switches/count",
+      "handler": "dev-portal-features-switches.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/dev-portal-features-switches/:id",
+      "handler": "dev-portal-features-switches.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/dev-portal-features-switches",
+      "handler": "dev-portal-features-switches.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dev-portal-features-switches/:id",
+      "handler": "dev-portal-features-switches.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dev-portal-features-switches/:id",
+      "handler": "dev-portal-features-switches.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

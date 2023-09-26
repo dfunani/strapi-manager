@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dev_portal_features_switches",
+  "info": {
+    "name": "DevPortal_Features_Switches"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Status": {
+      "type": "boolean"
+    },
+    "feature_name": {
+      "type": "string"
+    }
+  }
+}

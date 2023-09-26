@@ -1,0 +1,22 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "dev_portal_features_switches",
+  "info": {
+    "singularName": "dev-portal-features-switches",
+    "pluralName": "dev-portal-features-switch",
+    "displayName": "dev-portal-features-switches"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "Status": {
+      "type": "boolean"
+    },
+    "feature_name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_show_shows",
+  "info": {
+    "displayName": "show",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showKyb": {
+      "type": "boolean"
+    },
+    "providers": {
+      "displayName": "providers",
+      "type": "component",
+      "repeatable": true,
+      "component": "providers.providers"
+    }
+  }
+}

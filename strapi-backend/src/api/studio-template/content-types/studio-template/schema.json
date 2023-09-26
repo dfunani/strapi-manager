@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "studio_templates",
+  "info": {
+    "singularName": "studio-template",
+    "pluralName": "studio-templates",
+    "displayName": "Studio_template",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "template": {
+      "type": "json"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

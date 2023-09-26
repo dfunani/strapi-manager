@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publication_requests",
+  "info": {
+    "singularName": "publication-request",
+    "pluralName": "publication-requests",
+    "displayName": "publication-request",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "accepted": {
+      "type": "boolean"
+    },
+    "rejected": {
+      "type": "boolean"
+    },
+    "in_progress": {
+      "type": "boolean"
+    },
+    "developer_name": {
+      "type": "string"
+    },
+    "developer_contact": {
+      "type": "string"
+    },
+    "developer_email": {
+      "type": "string"
+    },
+    "registration_name": {
+      "type": "string"
+    },
+    "registration_address": {
+      "type": "string"
+    },
+    "power_of_authority": {
+      "type": "boolean"
+    },
+    "signed_tnc": {
+      "type": "boolean"
+    },
+    "microapp_id": {
+      "type": "integer"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "billing_address": {
+      "type": "string"
+    },
+    "vat_number": {
+      "type": "string"
+    }
+  }
+}

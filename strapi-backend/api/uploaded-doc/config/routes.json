@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/uploaded-docs",
+      "handler": "uploaded-doc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uploaded-docs/count",
+      "handler": "uploaded-doc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uploaded-docs/:id",
+      "handler": "uploaded-doc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/uploaded-docs",
+      "handler": "uploaded-doc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/uploaded-docs/:id",
+      "handler": "uploaded-doc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/uploaded-docs/:id",
+      "handler": "uploaded-doc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

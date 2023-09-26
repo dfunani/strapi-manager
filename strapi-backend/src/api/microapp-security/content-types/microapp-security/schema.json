@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "microapp_securities",
+  "info": {
+    "singularName": "microapp-security",
+    "pluralName": "microapp-securities",
+    "displayName": "microapp-security",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "microapp_id": {
+      "type": "uid"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "microapp_https": {
+      "type": "component",
+      "repeatable": false,
+      "component": "microapp-security.microapp-https"
+    },
+    "microapp_initial_redirects": {
+      "type": "component",
+      "repeatable": false,
+      "component": "microapp-security.microapp-initial-redirects"
+    },
+    "microapp_name": {
+      "type": "string"
+    }
+  }
+}

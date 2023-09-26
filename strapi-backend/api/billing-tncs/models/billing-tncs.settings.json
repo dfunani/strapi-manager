@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "billing_tncs",
+  "info": {
+    "name": "Billing_tncs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "userId": {
+      "type": "biginteger"
+    },
+    "billingtncVersion": {
+      "type": "string"
+    },
+    "currentBillingVersion": {
+      "type": "string"
+    }
+  }
+}

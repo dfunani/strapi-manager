@@ -1,0 +1,16 @@
+{
+  "kind": "collectionType",
+  "collectionName": "system",
+  "info": {
+    "name": "system"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "updateMicroAppEmail": {
+      "type": "email"
+    }
+  }
+}

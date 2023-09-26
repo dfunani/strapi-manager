@@ -1,0 +1,11 @@
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+      "accessKeyId": "AKIA46ZTD7JAQQU5K4FQ",
+      "secretAccessKey": "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",
+      "region": "af-south-1",
+      "params": {
+        "Bucket": "strapiayoba"
+      }
+    }
+  }

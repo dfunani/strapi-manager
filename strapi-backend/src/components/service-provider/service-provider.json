@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_service_provider_service_providers",
+  "info": {
+    "displayName": "service_provider",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

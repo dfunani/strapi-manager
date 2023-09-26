@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uploaded_doc",
+  "info": {
+    "name": "uploaded_Doc"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user_docs": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "file_name": {
+      "type": "string"
+    }
+  }
+}

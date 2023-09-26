@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "micro_app_permissions",
+  "info": {
+    "singularName": "micro-app-permission",
+    "pluralName": "micro-app-permissions",
+    "displayName": "micro-app-permissions"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "permissions": {
+      "type": "json"
+    }
+  }
+}

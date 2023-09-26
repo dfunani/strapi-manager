@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features",
+  "info": {
+    "singularName": "feature",
+    "pluralName": "features",
+    "displayName": "feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Important",
+        "Nice to have"
+      ]
+    },
+    "vote": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feature.vote"
+    },
+    "date_created": {
+      "type": "date"
+    },
+    "deleted": {
+      "type": "boolean"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

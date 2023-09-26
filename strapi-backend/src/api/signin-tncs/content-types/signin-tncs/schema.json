@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "signin_tncs",
+  "info": {
+    "singularName": "signin-tncs",
+    "pluralName": "signin-tnc",
+    "displayName": "signin-tncs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "userId": {
+      "type": "integer"
+    },
+    "tncVersion": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ayoba_documentations",
+  "info": {
+    "singularName": "ayoba-documentation",
+    "pluralName": "ayoba-documentations",
+    "displayName": "ayoba-documentation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu-system.menu"
+    },
+    "page_order": {
+      "type": "integer",
+      "unique": true
+    }
+  }
+}

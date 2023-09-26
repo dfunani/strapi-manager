@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/forum-questions",
+      "handler": "forum-question.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forum-questions/count",
+      "handler": "forum-question.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forum-questions/:id",
+      "handler": "forum-question.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/forum-questions",
+      "handler": "forum-question.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/forum-questions/:id",
+      "handler": "forum-question.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/forum-questions/:id",
+      "handler": "forum-question.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

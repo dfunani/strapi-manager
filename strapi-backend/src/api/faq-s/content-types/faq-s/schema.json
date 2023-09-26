@@ -1,0 +1,22 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "faq_s",
+  "info": {
+    "singularName": "faq-s",
+    "pluralName": "faq",
+    "displayName": "faq-s"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

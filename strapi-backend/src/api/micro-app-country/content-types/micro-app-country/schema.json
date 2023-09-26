@@ -1,0 +1,19 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "MicroApp-Counties",
+  "info": {
+    "singularName": "micro-app-country",
+    "pluralName": "micro-app-countries",
+    "displayName": "micro-app-country"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "countries": {
+      "type": "json"
+    }
+  }
+}

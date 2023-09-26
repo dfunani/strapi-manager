@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "side_navs",
+  "info": {
+    "name": "side_nav"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.dropdowns"
+      ]
+    }
+  }
+}

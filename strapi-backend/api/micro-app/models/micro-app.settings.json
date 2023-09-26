@@ -1,0 +1,161 @@
+{
+  "kind": "collectionType",
+  "collectionName": "micro_apps",
+  "info": {
+    "name": "MicroApp"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "developer": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    
+    "landscape": {
+      "type": "boolean",
+      "default": false
+    },
+    "msisdn": {
+      "type": "boolean",
+      "default": false
+    },
+    "pCountry": {
+      "type": "boolean",
+      "default": false
+    },
+    "location": {
+      "type": "boolean",
+      "default": false
+    },
+    "message": {
+      "type": "boolean",
+      "default": false
+    },
+    "profile": {
+      "type": "boolean",
+      "default": false
+    },
+    "presence": {
+      "type": "boolean",
+      "default": false
+    },
+    "language": {
+      "type": "boolean",
+      "default": false
+    },
+    "momo": {
+      "type": "boolean",
+      "default": false
+    },
+    "contacts": {
+      "type": "boolean",
+      "default": false
+    },
+    "email": {
+      "type": "boolean",
+      "default": false
+    },
+    "conversation": {
+      "type": "boolean",
+      "default": false
+    },
+    "takePhoto": {
+      "type": "boolean",
+      "default": false
+    },
+    "languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "microapps.languages"
+    },
+    "chatUri": {
+      "type": "string"
+    },
+    "discoveryUri": {
+      "type": "string"
+    },
+    "minimized": {
+      "type": "boolean",
+      "default": false
+    },
+    "published": {
+      "type": "boolean",
+      "default": false
+    },
+    "user_id": {
+      "type": "string",
+      "required": true
+    },
+    "countries": {
+      "type": "component",
+      "repeatable": true,
+      "component": "microapps.contries"
+    },
+    "terms": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "billing": {
+      "type": "boolean",
+      "default": false
+    },
+    "suspended": {
+      "type": "boolean",
+      "default": false
+    },
+    "suspension_reason": {
+      "type": "text"
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "live_chatUri": {
+      "type": "string"
+    },
+    "live_discoveryUri": {
+      "type": "string"
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "live_date": {
+      "type": "date"
+    },
+    "rtp_date": {
+      "type": "date"
+    },
+    "status_comment": {
+      "type": "text"
+    }
+  }
+}

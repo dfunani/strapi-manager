@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_menu_dropdowns",
+  "info": {
+    "name": "dropdowns",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "doc_nav_sections": {
+      "collection": "doc-nav-section"
+    }
+  }
+}

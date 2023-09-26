@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sign_in_billing_tncs",
+  "info": {
+    "name": "SignIn_Billing_tncs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "userId": {
+      "type": "integer"
+    },
+    "tncVersion": {
+      "type": "string"
+    },
+    "CurrentVersion": {
+      "type": "string"
+    },
+    "MicroAppId": {
+      "type": "uid"
+    }
+  }
+}

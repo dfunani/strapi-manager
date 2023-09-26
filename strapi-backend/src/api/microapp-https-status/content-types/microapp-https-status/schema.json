@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "microapp_https_statuses",
+  "info": {
+    "singularName": "microapp-https-status",
+    "pluralName": "microapp-https-statuses",
+    "displayName": "microapp-https-status"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "microapp_id": {
+      "type": "uid"
+    },
+    "microapp_name": {
+      "type": "string"
+    },
+    "microapp_url": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

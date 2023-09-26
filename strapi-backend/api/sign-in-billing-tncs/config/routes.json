@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sign-in-billing-tncs",
+      "handler": "sign-in-billing-tncs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sign-in-billing-tncs/count",
+      "handler": "sign-in-billing-tncs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sign-in-billing-tncs/:id",
+      "handler": "sign-in-billing-tncs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sign-in-billing-tncs",
+      "handler": "sign-in-billing-tncs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sign-in-billing-tncs/:id",
+      "handler": "sign-in-billing-tncs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sign-in-billing-tncs/:id",
+      "handler": "sign-in-billing-tncs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

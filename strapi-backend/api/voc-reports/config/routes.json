@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/voc-reports",
+      "handler": "voc-reports.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/voc-reports/count",
+      "handler": "voc-reports.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/voc-reports/:id",
+      "handler": "voc-reports.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/voc-reports",
+      "handler": "voc-reports.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/voc-reports/:id",
+      "handler": "voc-reports.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/voc-reports/:id",
+      "handler": "voc-reports.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

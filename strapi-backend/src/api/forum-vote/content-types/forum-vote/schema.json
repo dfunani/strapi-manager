@@ -1,0 +1,30 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "forum_votes",
+  "info": {
+    "singularName": "forum-vote",
+    "pluralName": "forum-votes",
+    "displayName": "forum-vote"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "user_id": {
+      "type": "string"
+    },
+    "answer_id": {
+      "type": "string"
+    },
+    "up_vote": {
+      "type": "boolean",
+      "default": false
+    },
+    "down_vote": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webhook_recivers",
+  "info": {
+    "singularName": "webhook-reciver",
+    "pluralName": "webhook-recivers",
+    "displayName": "WebhookReciver"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "json"
+    }
+  }
+}

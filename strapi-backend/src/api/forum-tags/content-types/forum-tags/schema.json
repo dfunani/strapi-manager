@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "forum_tags",
+  "info": {
+    "singularName": "forum-tags",
+    "pluralName": "forum-tag",
+    "displayName": "forum-tags"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

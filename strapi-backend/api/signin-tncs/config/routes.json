@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/signin-tncs",
+      "handler": "signin-tncs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/signin-tncs/count",
+      "handler": "signin-tncs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/signin-tncs/:id",
+      "handler": "signin-tncs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/signin-tncs",
+      "handler": "signin-tncs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/signin-tncs/:id",
+      "handler": "signin-tncs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/signin-tncs/:id",
+      "handler": "signin-tncs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

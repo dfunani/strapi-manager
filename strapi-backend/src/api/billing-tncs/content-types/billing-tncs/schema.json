@@ -1,0 +1,25 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "billing_tnc",
+  "info": {
+    "singularName": "billing-tncs",
+    "pluralName": "billing-tnc",
+    "displayName": "billing-tncs"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "userId": {
+      "type": "biginteger"
+    },
+    "billingtncVersion": {
+      "type": "string"
+    },
+    "currentBillingVersion": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_microapp_security_microapp_initial_redirects",
+  "info": {
+    "displayName": "microapp-initial-redirects",
+    "icon": "redo-alt"
+  },
+  "options": {},
+  "attributes": {
+    "microapp_url": {
+      "type": "string"
+    },
+    "date_modified": {
+      "type": "datetime"
+    },
+    "initital_redirects": {
+      "type": "string"
+    }
+  }
+}

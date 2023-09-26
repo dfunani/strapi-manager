@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_microapps_contries",
+  "info": {
+    "name": "Contries",
+    "icon": "flag"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

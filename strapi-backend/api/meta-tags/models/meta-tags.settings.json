@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meta_tags",
+  "info": {
+    "name": "Meta-tags"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogDescription": {
+      "type": "string"
+    },
+    "ogImage": {
+      "type": "string"
+    },
+    "ogUrl": {
+      "type": "string"
+    }
+  }
+}

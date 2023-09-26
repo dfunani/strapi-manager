@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tutorial-videos",
+      "handler": "tutorial-videos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tutorial-videos/count",
+      "handler": "tutorial-videos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tutorial-videos/:id",
+      "handler": "tutorial-videos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tutorial-videos",
+      "handler": "tutorial-videos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tutorial-videos/:id",
+      "handler": "tutorial-videos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tutorial-videos/:id",
+      "handler": "tutorial-videos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

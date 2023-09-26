@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_microapps_categories",
+  "info": {
+    "name": "Categories",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

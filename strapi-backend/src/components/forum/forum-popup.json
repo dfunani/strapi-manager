@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_forum_forum_popups",
+  "info": {
+    "displayName": "forum-popup",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

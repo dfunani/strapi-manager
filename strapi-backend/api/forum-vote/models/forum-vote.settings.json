@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forum_votes",
+  "info": {
+    "name": "Forum_vote"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user_id": {
+      "type": "string"
+    },
+    "answer_id": {
+      "type": "string"
+    },
+    "up_vote": {
+      "type": "boolean",
+      "default": false
+    },
+    "down_vote": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

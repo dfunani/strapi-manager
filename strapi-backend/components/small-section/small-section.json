@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_small_section_small_sections",
+  "info": {
+    "name": "small_section",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "media_left": {
+      "type": "boolean"
+    },
+    "header": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

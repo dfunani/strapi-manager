@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/forum-comments",
+      "handler": "forum-comment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forum-comments/count",
+      "handler": "forum-comment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forum-comments/:id",
+      "handler": "forum-comment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/forum-comments",
+      "handler": "forum-comment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/forum-comments/:id",
+      "handler": "forum-comment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/forum-comments/:id",
+      "handler": "forum-comment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

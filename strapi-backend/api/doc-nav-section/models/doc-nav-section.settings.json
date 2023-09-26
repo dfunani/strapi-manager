@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doc_nav_sections",
+  "info": {
+    "name": "doc_nav_section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.links"
+    },
+    "Sublinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.sub-links"
+    },
+    "url": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "string"
+    }
+  }
+}

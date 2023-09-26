@@ -1,0 +1,38 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "voc_reports",
+  "info": {
+    "singularName": "voc-reports",
+    "pluralName": "voc-report",
+    "displayName": "voc-reports"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "doc": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "month": {
+      "type": "string"
+    },
+    "reportType": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

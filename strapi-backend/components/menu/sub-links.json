@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_sub_links",
+  "info": {
+    "name": "sub_links",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

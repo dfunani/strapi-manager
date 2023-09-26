@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forum_questions",
+  "info": {
+    "singularName": "forum-question",
+    "pluralName": "forum-questions",
+    "displayName": "forum-question"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forum.tags"
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

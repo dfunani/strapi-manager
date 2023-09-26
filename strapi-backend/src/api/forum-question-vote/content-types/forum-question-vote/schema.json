@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forum_question_votes",
+  "info": {
+    "singularName": "forum-question-vote",
+    "pluralName": "forum-question-votes",
+    "displayName": "forum-question-vote"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "string"
+    },
+    "question_id": {
+      "type": "string"
+    },
+    "up_vote": {
+      "type": "boolean",
+      "default": false
+    },
+    "down_vote": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

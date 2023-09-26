@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notices",
+  "info": {
+    "name": "Notice"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "notice": {
+      "type": "text"
+    },
+    "background_colour": {
+      "type": "string"
+    },
+    "display": {
+      "type": "boolean"
+    },
+    "text_colour": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

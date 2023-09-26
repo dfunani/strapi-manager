@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dashboard_apps",
+  "info": {
+    "singularName": "dashboard-app",
+    "pluralName": "dashboard-apps",
+    "displayName": "Dashboard-app",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MicroApp": {
+      "type": "string"
+    },
+    "MonthYear": {
+      "type": "string"
+    },
+    "MonthlyInstalls": {
+      "type": "string"
+    },
+    "MonthlyUninstalls": {
+      "type": "string"
+    },
+    "Sessions10": {
+      "type": "integer"
+    },
+    "Sessions60": {
+      "type": "integer"
+    },
+    "Sessions200": {
+      "type": "integer"
+    },
+    "SessionsInfinit": {
+      "type": "integer"
+    },
+    "appID": {
+      "type": "integer"
+    },
+    "userID": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/billing-tncs",
+      "handler": "billing-tncs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/billing-tncs/count",
+      "handler": "billing-tncs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/billing-tncs/:id",
+      "handler": "billing-tncs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/billing-tncs",
+      "handler": "billing-tncs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/billing-tncs/:id",
+      "handler": "billing-tncs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/billing-tncs/:id",
+      "handler": "billing-tncs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

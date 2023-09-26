@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forum_comments",
+  "info": {
+    "name": "Forum_comment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "answer_id": {
+      "type": "string",
+      "required": true
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

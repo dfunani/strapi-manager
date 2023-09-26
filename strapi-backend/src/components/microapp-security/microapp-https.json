@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_microapp_security_microapp_https",
+  "info": {
+    "displayName": "microapp-https",
+    "icon": "skull-crossbones"
+  },
+  "options": {},
+  "attributes": {
+    "microapp_url": {
+      "type": "string"
+    },
+    "date_modified": {
+      "type": "datetime"
+    },
+    "https_status": {
+      "type": "string"
+    }
+  }
+}

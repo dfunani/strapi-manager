@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "billing_terms_and_conditions",
+  "info": {
+    "name": "Billing_Terms_And_Condition"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "Billing_TNC_Version": {
+      "type": "string"
+    }
+  }
+}

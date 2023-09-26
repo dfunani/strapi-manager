@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "avatars",
+  "info": {
+    "singularName": "avatar",
+    "pluralName": "avatars",
+    "displayName": "avatar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "user_id": {
+      "type": "string"
+    },
+    "image_path": {
+      "type": "string",
+      "unique": true
+    },
+    "pictures": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

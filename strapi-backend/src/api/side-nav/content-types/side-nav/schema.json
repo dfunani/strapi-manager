@@ -1,0 +1,22 @@
+
+{
+  "kind": "singleType",
+  "collectionName": "side_navs",
+  "info": {
+    "singularName": "side-nav",
+    "pluralName": "side-navs",
+    "displayName": "side-nav"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.dropdowns"
+      ]
+    }
+  }
+}

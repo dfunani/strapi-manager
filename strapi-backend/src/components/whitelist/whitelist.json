@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_whitelist_whitelists",
+  "info": {
+    "displayName": "whitelist",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "string"
+    }
+  }
+}

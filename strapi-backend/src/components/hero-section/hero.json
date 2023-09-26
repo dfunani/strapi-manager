@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_hero_section_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "phone_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "link": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    },
+    "header": {
+      "type": "string"
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.button"
+    }
+  }
+}

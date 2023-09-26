@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "analytics",
+  "info": {
+    "singularName": "analytic",
+    "pluralName": "analytics",
+    "displayName": "Analytic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "micro_app": {
+      "type": "string"
+    },
+    "month_year": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "monthly_active_users": {
+      "type": "string"
+    },
+    "monthly_installs": {
+      "type": "string"
+    },
+    "monthly_uninstalls": {
+      "type": "string"
+    },
+    "sessions_10": {
+      "type": "integer"
+    },
+    "sessions_60": {
+      "type": "integer"
+    },
+    "sessions_200": {
+      "type": "integer"
+    },
+    "sessions_infinit": {
+      "type": "integer"
+    },
+    "app_id": {
+      "type": "integer"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

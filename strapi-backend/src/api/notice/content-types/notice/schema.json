@@ -1,0 +1,31 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "notices",
+  "info": {
+    "singularName": "notice",
+    "pluralName": "notices",
+    "displayName": "notice"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "notice": {
+      "type": "text"
+    },
+    "background_colour": {
+      "type": "string"
+    },
+    "display": {
+      "type": "boolean"
+    },
+    "text_colour": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_forum_best_practices",
+  "info": {
+    "displayName": "best-practices",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forum.forum-content"
+    }
+  }
+}

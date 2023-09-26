@@ -1,0 +1,25 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "billing_terms_and_conditions",
+  "info": {
+    "singularName": "billing-terms-and-condition",
+    "pluralName": "billing-terms-and-conditions",
+    "displayName": "billing-terms-and-condition"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "Billing_TNC_Version": {
+      "type": "string"
+    }
+  }
+}

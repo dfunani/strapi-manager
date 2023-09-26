@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "icon_placeholders",
+  "info": {
+    "singularName": "icon-placeholder",
+    "pluralName": "icon-placeholders",
+    "displayName": "icon-placeholder",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "microapp_icon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

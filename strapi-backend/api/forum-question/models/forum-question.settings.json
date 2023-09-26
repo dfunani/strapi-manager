@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forum_questions",
+  "info": {
+    "name": "Forum-question"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "forum.tags"
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

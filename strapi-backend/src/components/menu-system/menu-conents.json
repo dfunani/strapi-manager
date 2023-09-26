@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_menu_system_menu_conents",
+  "info": {
+    "displayName": "menu_conents",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "document_name": {
+      "type": "string"
+    },
+    "document_content": {
+      "type": "richtext"
+    }
+  }
+}

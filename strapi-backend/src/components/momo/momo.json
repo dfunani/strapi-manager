@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_momo_momos",
+  "info": {
+    "displayName": "momo"
+  },
+  "options": {},
+  "attributes": {
+    "cameroon": {
+      "type": "string"
+    },
+    "ghana": {
+      "type": "string"
+    },
+    "uganda": {
+      "type": "string"
+    },
+    "congoBrazzaville": {
+      "type": "string"
+    }
+  }
+}

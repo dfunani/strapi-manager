@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_countries_countries",
+  "info": {
+    "displayName": "countries",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

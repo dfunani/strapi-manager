@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "City": {
+      "type": "string"
+    },
+    "streetName": {
+      "type": "string"
+    },
+    "buildingName": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "emailAddress": {
+      "type": "email"
+    },
+    "Country": {
+      "type": "string"
+    }
+  }
+}

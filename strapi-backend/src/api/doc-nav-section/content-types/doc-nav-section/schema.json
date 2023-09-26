@@ -1,0 +1,35 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "doc_nav_sections",
+  "info": {
+    "singularName": "doc-nav-section",
+    "pluralName": "doc-nav-sections",
+    "displayName": "doc-nav-section"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.links"
+    },
+    "Sublinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.sub-links"
+    },
+    "url": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "string"
+    }
+  }
+}

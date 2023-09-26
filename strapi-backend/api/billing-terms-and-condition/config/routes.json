@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/billing-terms-and-conditions",
+      "handler": "billing-terms-and-condition.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/billing-terms-and-conditions/count",
+      "handler": "billing-terms-and-condition.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/billing-terms-and-conditions/:id",
+      "handler": "billing-terms-and-condition.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/billing-terms-and-conditions",
+      "handler": "billing-terms-and-condition.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/billing-terms-and-conditions/:id",
+      "handler": "billing-terms-and-condition.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/billing-terms-and-conditions/:id",
+      "handler": "billing-terms-and-condition.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

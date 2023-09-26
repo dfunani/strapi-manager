@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_features_votes",
+  "info": {
+    "name": "vote",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "user_id": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

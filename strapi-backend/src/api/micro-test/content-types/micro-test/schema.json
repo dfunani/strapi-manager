@@ -1,0 +1,129 @@
+{
+  "kind": "collectionType",
+  "collectionName": "micro_tests",
+  "info": {
+    "singularName": "micro-test",
+    "pluralName": "micro-tests",
+    "displayName": "micro-test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "developer": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "landscape": {
+      "type": "boolean"
+    },
+    "msisdn": {
+      "type": "boolean"
+    },
+    "pCountry": {
+      "type": "boolean"
+    },
+    "location": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "boolean"
+    },
+    "profile": {
+      "type": "boolean"
+    },
+    "presence": {
+      "type": "boolean"
+    },
+    "language": {
+      "type": "boolean"
+    },
+    "momo": {
+      "type": "boolean"
+    },
+    "contacts": {
+      "type": "boolean"
+    },
+    "email": {
+      "type": "boolean"
+    },
+    "conversation": {
+      "type": "boolean"
+    },
+    "takePhoto": {
+      "type": "boolean"
+    },
+    "minimized": {
+      "type": "boolean"
+    },
+    "published": {
+      "type": "boolean"
+    },
+    "terms": {
+      "type": "boolean"
+    },
+    "billing": {
+      "type": "boolean"
+    },
+    "suspended": {
+      "type": "boolean"
+    },
+    "deleted": {
+      "type": "boolean"
+    },
+    "short_description": {
+      "type": "string"
+    },
+    "suspension_reason": {
+      "type": "string"
+    },
+    "live_chatUri": {
+      "type": "string"
+    },
+    "live_discoveryUri": {
+      "type": "string"
+    },
+    "status_comment": {
+      "type": "string"
+    },
+    "languages": {
+      "displayName": "languages",
+      "type": "component",
+      "repeatable": true,
+      "component": "languages.languages"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "countries": {
+      "displayName": "countries",
+      "type": "component",
+      "repeatable": true,
+      "component": "countries.countries"
+    }
+  }
+}

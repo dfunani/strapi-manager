@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "signin_tncs",
+  "info": {
+    "name": "signin_tncs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "userId": {
+      "type": "integer"
+    },
+    "tncVersion": {
+      "type": "string"
+    },
+    "migration_date": {
+      "type": "datetime"
+    }
+  }
+}

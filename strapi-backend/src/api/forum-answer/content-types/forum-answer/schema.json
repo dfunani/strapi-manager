@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forum_answers",
+  "info": {
+    "singularName": "forum-answer",
+    "pluralName": "forum-answers",
+    "displayName": "forum-answer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "user_id": {
+      "type": "string",
+      "required": true
+    },
+    "question_id": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "approved": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

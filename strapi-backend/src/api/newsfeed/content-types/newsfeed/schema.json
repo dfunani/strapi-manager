@@ -1,0 +1,38 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "newsfeeds",
+  "info": {
+    "singularName": "newsfeed",
+    "pluralName": "newsfeeds",
+    "displayName": "newsfeed"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    },
+    "authorName": {
+      "type": "string",
+      "required": true
+    },
+    "imageUrl": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

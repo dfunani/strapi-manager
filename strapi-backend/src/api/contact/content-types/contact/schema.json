@@ -1,0 +1,34 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "City": {
+      "type": "string"
+    },
+    "streetName": {
+      "type": "string"
+    },
+    "buildingName": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "emailAddress": {
+      "type": "email"
+    },
+    "Country": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/micro-app-countries",
+      "handler": "micro-app-country.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/micro-app-countries/count",
+      "handler": "micro-app-country.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/micro-app-countries/:id",
+      "handler": "micro-app-country.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/micro-app-countries",
+      "handler": "micro-app-country.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/micro-app-countries/:id",
+      "handler": "micro-app-country.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/micro-app-countries/:id",
+      "handler": "micro-app-country.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

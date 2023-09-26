@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_forum_forum_contents",
+  "info": {
+    "displayName": "forum-best-practices-steps",
+    "icon": "hippo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

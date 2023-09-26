@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "terms_and_conditions",
+  "info": {
+    "name": "terms_and_conditions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "Terms_and_conditions_Version": {
+      "type": "string"
+    }
+  }
+}

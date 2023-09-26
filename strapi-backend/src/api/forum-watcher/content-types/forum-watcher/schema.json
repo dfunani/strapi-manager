@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forum_watchers",
+  "info": {
+    "singularName": "forum-watcher",
+    "pluralName": "forum-watchers",
+    "displayName": "forum-watcher",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "string"
+    },
+    "user_email": {
+      "type": "string"
+    },
+    "is_watching": {
+      "type": "boolean"
+    },
+    "question_id": {
+      "type": "string"
+    }
+  }
+}

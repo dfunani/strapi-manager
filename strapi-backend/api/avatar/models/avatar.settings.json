@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "avatars",
+  "info": {
+    "name": "avatar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user_id": {
+      "type": "string"
+    },
+    "image_path": {
+      "type": "string"
+    },
+    "pictures": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "profile",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "profile"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "fullname": {
+      "type": "string",
+      "required": false
+    },
+    "registeredAs": {
+      "type": "string",
+      "required": true
+    },
+    "idNumber": {
+      "type": "string",
+      "required": false
+    },
+    "businessName": {
+      "type": "string"
+    },
+    "businessRegNumber": {
+      "type": "string"
+    },
+    "businessAddress": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

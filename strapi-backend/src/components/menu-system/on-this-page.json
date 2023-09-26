@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_menu_system_on_this_pages",
+  "info": {
+    "displayName": "on_this_page"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

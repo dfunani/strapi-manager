@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsfeeds",
+  "info": {
+    "name": "Newsfeed"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    },
+    "authorName": {
+      "type": "string",
+      "required": true
+    },
+    "imageUrl": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

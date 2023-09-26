@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_big_section_big_sections",
+  "info": {
+    "name": "big_section",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "small_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "small-section.small-section"
+    }
+  }
+}
