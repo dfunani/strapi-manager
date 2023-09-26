@@ -1,0 +1,21 @@
+{
+  "name": "strapi_updater",
+  "version": "1.0.0",
+  "description": "package responsible for updating a MicroApp for the new Fields",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'Success: 0 Tests Failed'",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Updater"
+  ],
+  "author": "Simphiwe Nkabinde",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

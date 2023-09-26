@@ -1,2 +1,4 @@
 /data
-*node_modules
+strapi_updater_server/node_modules
+strapi_updater_manager/node_modules
+strapi-backend/node_modules
